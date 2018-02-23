@@ -1,7 +1,7 @@
 (function() {
   'use strict';
 
-  var app = angular.module('starter');
+  var app = angular.module('myNotes');
 
   app.controller('ListCtrl', function ($scope, $rootScope, NotesService) {
 

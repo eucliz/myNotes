@@ -1,7 +1,7 @@
 (function() {
   'use strict';
 
-  var app = angular.module('starter');
+  var app = angular.module('myNotes');
 
   app.controller('CreateCtrl', function ($scope, $state, NotesService) {
     $scope.note = {created_at: new Date().getTime(), title: '', description: ''}
