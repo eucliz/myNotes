@@ -1,7 +1,7 @@
 (function() {
   'use strict';
 
-  var app = angular.module('myNotes');
+  var app = angular.module('starter');
 
   app.controller('EditCtrl', function ($scope, $state, NotesService) {
     $scope.id = $state.params.id;
